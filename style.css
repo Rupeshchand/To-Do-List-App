@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.container {
+    margin: 10px;
+    padding: 10px;
+    transform: translate(600px, 200px);
+    background-color: rgb(69, 69, 69);
+    width: fit-content;
+    height: 800px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+form {
+    text-align: center;
+    padding: 20px;
+}
+input {
+    background-color: white;
+    color: grey;
+    border: 0;
+    outline: none;
+    width: 400px;
+    padding: 15px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+button {
+    padding: 12px;
+    border: none;
+    color: black;
+    background-color: rgb(247, 186, 6);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 2px;
+    width: 150px;
+    cursor: pointer;
+}
+ul {
+    position: absolute;
+    left: 30px;
+}
+li {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border: 0;
+    outline: none;
+    width: 554px;
+    padding: 15px;
+    border-radius: 2px;
+    font-size: 20px;
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.task-buttons {
+    background: none;        
+    cursor: pointer;        
+    font-size: 20px;       
+    color: red;    
+    margin-left: 8px;        
+}
+.task-buttons .fa-edit {
+    color: #007bff;          
+}
+.task-buttons .fa-trash {
+    color: #dc3545;          
+}
