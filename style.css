@@ -7,11 +7,13 @@ body {
     background-color: black;
     font-family: sans-serif;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container {
     margin: 10px;
     padding: 10px;
-    transform: translate(600px, 200px);
     background-color: rgb(69, 69, 69);
     width: fit-content;
     height: 800px;
